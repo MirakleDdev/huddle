@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-image: url(../img/bgl.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px 0px 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    margin-left: 40px;
+}
+.gif{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: 2px 2px 7px 2px silver;
+    font-family: open sans;
+    font-size: 12px;
+    padding: 10px 45px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.gsff{
+    background-color: #ff52bf;
+    border: transparent;
+    padding: 15px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.left{
+    width: 40%;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.right{
+    width: 50%;
+}
+.mockups{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+    color: gray;
+}
+.middle{
+    background-color: white;
+}
+.first, .second, .third{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    box-shadow: 2px 2px 7px 2px silver;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+.growtgd{
+    width: 100%;
+    padding: 50px 0px;
+    height: 50%;
+}
+.grow{
+    width: 35%;
+    margin-top: 90px;
+    padding: 70px;
+}
+.gtimg{
+    width: 40%;
+    height: 50%;
+    padding-right: 30px;
+}
+.fcimg{
+    width: 40%;
+    height: 60%;
+}
+.flowcnv{
+    width: 100%;
+    height: 50%;
+    padding: 60px 0px;
+}
+.flow{
+    width: 40%;
+    margin-top: 80px;
+    padding: 70px;
+}
+.users{
+    width: 40%;
+    margin-top: 90px;
+    padding: 70px;
+}
+.yuimg{
+    width: 40%;
+    height: 45%;
+    padding-right: 30px;
+}
+.yourus{
+    width: 100%;
+    height: 50%;
+    padding: 50px 0px;
+}
+.rtbyc{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    box-shadow: 2px 2px 7px 2px silver;
+    margin-top: 100px;
+    margin-bottom: -130px;
+    border-radius: 20px;
+    line-height: 85px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    z-index: 99;
+    position: relative;
+}
+.bottom{
+    background-color: hsl(192, 100%, 9%);
+}
+.qtr{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-top: 200px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.firstqtr{
+    width: 25%;
+}
+.secondqtr{
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.thirdqtr{
+    width: 20%;
+    margin-top: 40px;
+}
+.fourthqtr{
+    width: 20%;
+    display: flex;
+    height: fit-content;
+}
+i{padding: 10px; margin: 10px; border: 1px solid white; border-radius: 50%;}
+
+@media screen and (max-width: 700px){
+    .logo{width: 100px;}
+    .gif{padding: 5px 30px;}
+    .left{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .right{width: 90%;}
+    h1{font-size: 24px;}
+    p{font-size: 14px;}
+    .grow{width: 100%; padding: 20px; margin-top: 30px;}
+    .gtimg{width: 100%;}
+    .first{padding-left: 20px;}
+    .fcimg{width: 100%;}
+    .flow{width: 100%; padding: 20px; margin-top: 0px}
+    .second{padding-left: 10px; padding-right: 10px;}
+    .users{width: 100%; padding: 10px; margin-top: 20px;}
+    .yuimg{width: 100%;}
+    .third{padding-left: 20px;}
+    .rtbyc div h1{font-size: 20px;}
+    .rtbyc{
+        width: 90%;
+        margin-top: 50px;
+        line-height: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .firstqtr{width: 100%;}
+    .secondqtr{width: 100%; margin-left: 0px;}
+    .thirdqtr{width: 100%; margin-top: 0px;}
+}
