@@ -1,2 +1,2 @@
 # huddle
-https://mirakleddev.github.io/huddle/index.html
+https://mimiicodes.github.io/huddle/index.html
